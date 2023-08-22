@@ -19,7 +19,7 @@ def registrar():
     if i=='yes' and opciones.get()==1 or opciones.get()==2:
         usuario.append((entrada_nombre.get(),entrada_apellido.get(),opciones.get(),entrada_cedula.get(),entrada_contrasena.get()))
         #Se hará la conexion con la bd de tacosoft desde la lista usuario.
-        #print(usuario)    
+        print(usuario)    
         entrada_nombre.delete(0,END)
         entrada_apellido.delete(0,END)
         entrada_cedula.delete(0,END)
